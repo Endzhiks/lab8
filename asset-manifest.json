@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/lab8/static/css/main.9e3ec478.css",
+    "main.js": "/lab8/static/js/main.e437debc.js",
+    "static/media/phones.png": "/lab8/static/media/phones.a7d3ceb893c2ad740064.png",
+    "static/media/evernote-logo.svg": "/lab8/static/media/evernote-logo.0d10a63c11a5dfcb78baac7cf3e7ea92.svg",
+    "static/media/card-list-phone.png": "/lab8/static/media/card-list-phone.867a68cdc34355b5a996.png",
+    "static/media/black-circle.png": "/lab8/static/media/black-circle.44f76ca9afc97c9541ab.png",
+    "static/media/circle-eye.png": "/lab8/static/media/circle-eye.fc38f2276ff8415b7505.png",
+    "static/media/circle-downloads.png": "/lab8/static/media/circle-downloads.248f176804e2d05268f6.png",
+    "static/media/circle-mustache.png": "/lab8/static/media/circle-mustache.9cd47c4b0443eec8f19d.png",
+    "static/media/pinterest-logo.svg": "/lab8/static/media/pinterest-logo.c6bcb90652c815bad6b133002e844806.svg",
+    "static/media/square-logo.svg": "/lab8/static/media/square-logo.bb3f2ad446aee84f60dadbe8cf4dbdad.svg",
+    "static/media/airbnb-logo.svg": "/lab8/static/media/airbnb-logo.4a5617cca4db610e869f2769d0ab5a19.svg",
+    "static/media/apple-logo.svg": "/lab8/static/media/apple-logo.de503b20da42dc54417187f9801e61e2.svg",
+    "index.html": "/lab8/index.html",
+    "main.9e3ec478.css.map": "/lab8/static/css/main.9e3ec478.css.map",
+    "main.e437debc.js.map": "/lab8/static/js/main.e437debc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e3ec478.css",
+    "static/js/main.e437debc.js"
+  ]
+}
