@@ -1,0 +1,16 @@
+ul.footerList {
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  justify-content: space-evenly;
+  list-style: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  @media (max-width: 500px) {
+    font-size: 12px;
+  }
+}

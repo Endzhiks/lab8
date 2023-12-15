@@ -1,0 +1,91 @@
+.carousel {
+  position: relative;
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .carouselWrapper {
+    width: 1200px;
+    overflow: hidden;
+
+    @media (max-width: 1270px) {
+      width: 800px;
+    }
+
+    @media (max-width: 900px) {
+      width: 450px;
+    }
+
+    @media (max-width: 520px) {
+      width: 280px;
+      min-width: 280px;
+    }
+  }
+
+  .carouselContainer {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  > button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 48px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+
+    &.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    &.leftArrow {
+      left: -35px;
+    }
+
+    &.rightArrow {
+      right: -35px;
+    }
+  }
+
+  @media (max-width: 520px) {
+    > button {
+      &.leftArrow {
+        left: -45px;
+      }
+
+      &.rightArrow {
+        right: -45px;
+      }
+    }
+  }
+
+  .carouselBtns {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+    button {
+      padding: 0;
+      width: 10px;
+      height: 10px;
+      border: none;
+      border-radius: 50%;
+      background-color: white;
+      opacity: 0.5;
+      transition: opacity 0.3s;
+      cursor: pointer;
+
+      &.active, &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

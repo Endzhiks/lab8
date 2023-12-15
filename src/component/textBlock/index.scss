@@ -1,0 +1,42 @@
+.text-container {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 38px;
+    margin: 0 0 8px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0 0 16px;
+  }
+
+  &.light-container {
+    h1 {
+      color: var(--base-title-color);
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 64px;
+      text-align: center;
+      color: var(--base-text-color);
+      max-width: 450px;
+    }
+  }
+
+  &.dark-container {
+    h1, p {
+      color: white;
+    }
+  }
+
+  &.center {
+    align-items: center;
+  }
+
+  &.left {
+    align-items: start;
+  }
+}

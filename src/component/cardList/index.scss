@@ -1,0 +1,35 @@
+ul.cardList {
+  margin: 0 0 64px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+div.cardListWithImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+
+  .cardItems {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+
+    @media (max-width: 800px) {
+      flex-direction: row;
+      gap: 64px;
+    }
+
+    @media (max-width: 530px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 48px;
+    }
+  }
+}
